@@ -20,5 +20,3 @@ if x.start_with?("T")
   puts "Hi, #{x}"
 end
 }
-
-hello_t(["a"]) {"a"}
