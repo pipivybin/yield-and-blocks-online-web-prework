@@ -6,11 +6,11 @@ def hello_t(a)
   end
 end
 
-hello_t(["Tim", "Tom", "Jim"])
-{|x|
+hello_t(["Tim", "Tom", "Jim"]) do |x|
 if x.start_with?("T")
   puts "Hi, #{x}"
+end
+end
 
-}
 
 # call your method here!
