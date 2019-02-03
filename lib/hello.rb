@@ -10,7 +10,7 @@ hello_t(["Tim", "Tom", "Jim"])
 {|x|
 if x.start_with?("T")
   puts "Hi, #{x}"
-end
+
 }
 
 # call your method here!
