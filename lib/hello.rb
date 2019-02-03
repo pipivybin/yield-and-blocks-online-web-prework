@@ -17,4 +17,4 @@ if x.start_with?("T")
 end
 }
 
-hello_t(["a"]) {}
+hello_t(["a"]) {"a"}
