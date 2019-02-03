@@ -6,7 +6,7 @@ def hello_t(a)
     i = i+1
   end
   a
-else 
+else
   puts  "Hey! No block was given!"
 end
 end
